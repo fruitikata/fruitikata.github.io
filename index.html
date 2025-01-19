@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NALI</title>
+
+        <!-- CSS -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J+Guides:ital@0;1&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="icon" href="images/nali.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <!-- MAIN CONTAINER START-->
+
+        <header class="header">
+            <a href="#home" class="logo">
+                ナリ<span>NALI.</span>
+            </a>
+
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <!--<button class="gradient-btn">Contact</button>-->
+            </nav>
+
+            
+        </header>
+
+        <!--HOME SECTION-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h2>This is the</h2>
+                <h1><span>NA</span><span>LI.</span></h1>
+                <p>Creative Designers & Developers.</p>
+            </div>
+
+            <div class="overlay"></div>
+            
+        </section>
+
+        <!--ABOUT SECTION-->
+        <section class="about" id="about">
+
+            <div class="about-img">
+                <img src="images/lain2.jpg" alt="">
+            </div>
+
+            <div class="about-content">
+                <h2>ABOUT <span>NALI</span></h2>
+                <p>A team of creative problem-solvers committed to making your future so irresistible, 
+                    it becomes inevitable. By merging advanced technology, bold design, and thoughtful development, 
+                    we help businesses excel in a digital-driven world.
+                    <br><br>
+                    Our team is passionate about the art of creation. <br>  
+                    We don't just develop-- we innovate!</p>
+                    <a href="#projects" class="btn">Check Projects</a>
+            </div>
+        </section>
+
+        <!--PROJECTS SECTION-->
+        <section class="projects" id="projects">
+            
+            <h2 class="heading">PROJECTS</h2>
+
+            <div class="projects-box">
+
+                <div class="project-card">
+                    <img src="images/spendzilla.png" alt="">
+                    <h3>Spendzilla</h3>
+                    <p>A web application design for monitoring and managing daily spending.</p>
+                    <div class="btn" onclick="window.open('https://github.com/fruitikata/Spendzilla')">View</div>
+                </div>
+
+                <div class="project-card">
+                    <img src="images/translator.jpg" alt="">
+                    <h3>Translator</h3>
+                    <p>A desktop translator application that delivers quick and reliable language translations directly from your device.</p>
+                    <div class="btn" onclick="window.open('https://github.com/fruitikata/Translator_Voice-cpp')">View</div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="images/showcase.png" alt="">
+                    <h3>Showcase</h3>
+                    <p>A web-based platform for browsing a wide selection of gift products, offering a seamless discovery experience.</p>
+                    <div class="btn" onclick="window.open('https://github.com/fruitikata/Hazhen-Website')">View</div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--CONTACT SECTION-->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Us</span></h2>
+            
+            <form action="#">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    
+                </div>
+
+                <div class="input-group2">
+                    <textarea name="" id="" placeholder="Message" cols="30" rows="3" required></textarea>
+                    <input type="submit" value="Send" class="btn" onclick="Notification">
+                    
+                    
+                    <div class="notification" id="notification"></div>
+                </div>
+
+                
+
+            </form>
+
+            
+        </section>
+        <footer class="footer">
+            <div class="social-icons">
+                <a href="https://github.com/">
+                    <i class="bx bxl-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+
+                <a href="https://www.facebook.com/">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+            </div>
+
+            <p class="copyright">
+                © NALI | EKSDEE
+            </p>
+        </footer>
+        <!-- JS -->
+         <script src="script.js"></script>
+    </body>
+</html>
