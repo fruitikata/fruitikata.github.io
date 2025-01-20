@@ -345,15 +345,15 @@ section{
     flex-direction: column;
     min-height: 60vh;
     justify-content: space-between;
-    padding: 10rem 15%;
+    padding: 5rem 15%;
 }
 
 .contact form{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
-    margin: 5rem 0;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
     text-align: center;
 }
 
@@ -367,7 +367,7 @@ section{
     background-color: var(--bg-color);
     border-radius: 1rem;
     border: 2px solid var(--second-bg-color);
-    margin: 2.3rem 0;
+    margin: 1.5rem 0;
     resize: none;
 }
 
